@@ -21,8 +21,135 @@
       display: inline-block;
     }
   }
+}
 
-  .content {
+body {
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue",
+    Helvetica, Arial, "Lucida Grande", sans-serif;
+  font-weight: 300;
+  font-size: 16px;
+  margin: 0;
+  padding: 0;
+  background: rgb(12, 54, 122);
+  background: linear-gradient(90deg, #e8e3ff 0%, #d9e7ff 100%);
+}
+
+a {
+  text-decoration: none;
+  color: #3223b6;
+  font-weight: bold;
+}
+
+img {
+  max-width: 100%;
+  height: 35px;
+  padding-right: 800px;
+  padding-left: 5px;
+  margin-top: -30px;
+  margin-bottom: -18px;
+}
+
+nav {
+  background: #103770;
+  font-size: 1rem;
+  font-weight: bold;
+  padding: 0.5rem 10rem;
+  font-family: -system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+  justify-content: space-around;
+
+  a {
+    color: white;
     padding: 1rem;
+    display: inline-block;
+    height: 10px;
   }
+}
+
+.header {
+  width: 100%;
+  font-size: 2rem;
+  font-weight: bold;
+  text-align: center;
+  font-family: cursive;
+}
+
+.text-color-primary {
+  color: color(primary);
+}
+
+.content {
+  padding: 0rem;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+body {
+  display: inside;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  min-height: 10vh;
+  padding: 0rem 0;
+
+  font-family: -system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+}
+
+table {
+  width: 100%;
+  max-width: 50rem;
+  margin-top: 200px;
+
+  tr:nth-child(even) th {
+    color: #ccc;
+    font-weight: normal;
+  }
+
+  th,
+  td {
+    padding: 0.5rem 1rem;
+  }
+
+  th {
+    font-weight: normal;
+    border-top: thin dotted #ccc;
+  }
+
+  td {
+    font-size: 0.8rem;
+    font-weight: bold;
+    line-height: 1.4;
+    border-radius: 0.2rem;
+    transition: opacity 0.3s ease;
+  }
+
+  td > span {
+    font-size: 0.8em;
+    font-weight: normal;
+    display: block;
+    width: 100%;
+  }
+}
+
+.stage-earth {
+  background-color: #ffa726;
+}
+.stage-mercury {
+  background-color: #9ccc65;
+}
+.stage-venus {
+  background-color: #ff8a65;
+}
+.stage-mars {
+  background-color: #b3e5fc;
+}
+.stage-jupiter {
+  background-color: #81d4fa;
+}
+.stage-saturn {
+  background-color: #26c6da;
 }

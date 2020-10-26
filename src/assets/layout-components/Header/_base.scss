@@ -40,7 +40,8 @@
     a {
       i {
         background: $gray-200;
-        @include border-radius(100%); }
+        @include border-radius(100%);
+      }
     }
   }
 
@@ -57,7 +58,7 @@
   .nav-logo {
     background: $second;
     width: 126px;
-    height: 110px;
+    height: 50px;
     padding: 0;
     display: block;
     @include border-radius(100%);

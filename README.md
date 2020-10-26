@@ -100,17 +100,18 @@ Through all of these tasks, ensure the site you are building is accessible to pe
 
 ### Milestone 1
 
-1. Choose a front-end template to use
+1. Start from the [application template](https://github.com/UC-ITSC/Virtual-Event-Template)
+2. Choose a front-end template to use
     * Try searching for “Free React Templates” or use one of these [35 Free React Templates](https://dev.to/davidepacilio/35-free-react-templates-and-themes-32ci)
-2. Create the event home page including:
+3. Create the event home page including:
    * An embedded YouTube live stream
    * A schedule of events
-3. Create a page for each project type (DevOps, OCAT, VEaaS, etc) to list the projects for each one
+4. Create a page for each project type (DevOps, OCAT, VEaaS, etc) to list the projects for each one
    * This can be one template page that receives JSON data to populate the title and projects, but doesn’t have to be
-4. Create a template page to display each project
+5. Create a template page to display each project
    * Page should include a video embed, some text data about the project, and the name of the person who made the project
    * This should be a template page that receives JSON data to populate the specific project information, but you might have a different template page for each project type
-5. Publish the site to Netlify
+6. Publish the site to Netlify
    * [Make a Netlify account](https://app.netlify.com/signup?_ga=2.152698749.579539556.1598646102-1291164933.1598024532)
    * [Log in to Netlify from your command line](https://docs.netlify.com/cli/get-started/#authentication)
    * Run the command `npm run deploy:prod` to deploy
